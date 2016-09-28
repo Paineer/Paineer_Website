@@ -63,11 +63,11 @@ body{
 .header-main .menub{
 	padding-top: 13px;
 	margin-left: 100px;
-	float: left;
+	float: right;
 	position: relative;
 }
 .header-main .menub li{
-	width: 55px;
+	width: 65px;
 	padding:0 17px;
 	position: relative;
 }
@@ -78,6 +78,7 @@ body{
 	color: #333;
 	text-align: center;
 	position: relative;
+	font-size: 14px;
 }
 
 
@@ -123,7 +124,7 @@ body{
 }
 .header-main .menub b{
 	display: block;
-	width: 55px;
+	width: 65px;
 	height: 3px;
 	background: #c41723;
 	position: absolute;
@@ -223,12 +224,14 @@ body{
 }
 .f-se{
 	clear: both;
-	line-height: 60px;
+	line-height: 40px;
 	border-top: 1px solid #393634;
 	overflow: hidden;
 }
 .f-se .le{
 	float: left;
+	line-height: 56px;
+	font-size: 13px
 }
 .f-se a{
 	color: #a09f9e;
@@ -3344,7 +3347,7 @@ body{
 	position:absolute;
 	right:-60px;
 	top:0px;
-	background:url("../image/i1.jpg") no-repeat 0px -59px ;
+	background:url("/image/close.jpg") no-repeat 0px -59px ;
 }
 .vnclose:hover{
 	background-position:0px 0px;

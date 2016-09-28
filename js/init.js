@@ -12,7 +12,7 @@ $(function(){
     $('input[name="captchas"]').one('focusin',function(e){
         var img = $(this).nextAll('img.captchas');
         if (tools.isEmptyValue(img)) {
-            var imgStr = '<img src="'%20+%20SITE_URL%20+/index.htm'captchas?t=' + Math.random()*10 
+            var imgStr = '<img src="' + SITE_URL + 'captchas?t=' + Math.random()*10
                         + '" class="captchas" title="点击刷新"';
             $(this).attr('flg') ? imgStr += ' style="cursor:pointer; padding-left:145px"/>'
                                 : imgStr += ' style="cursor:pointer"/>';
