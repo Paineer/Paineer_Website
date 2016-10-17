@@ -15,8 +15,8 @@ var province = {
 	province.init($('#pv'),loc);
 	</script>
 	-------------------------------------------------------------*/
-	url_province: SITE_URL + 'province/province_ajax'
-	,url_province_city: SITE_URL + 'province/city_ajax'
+	url_province: '' + 'province/province_ajax'
+	,url_province_city: '' + 'province/city_ajax'
 	,init:function(pv){
  		l = arguments[1]?arguments[1]:0;
 		$.ajax({
