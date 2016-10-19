@@ -56,7 +56,7 @@ body{
 	background: url("../image/drny.jpg") no-repeat;
 }
 .header .logo{
-	padding:25px 0 0 0;
+	padding: 10px 0 0 0;
 	float: left;
 }
 
@@ -700,11 +700,11 @@ body{
 	margin:0 8px;
 }
 .i-fo{
-	padding-top: 70px;
+	padding-top: 100px;
 	padding-bottom: 130px;
 }
 .i-fob{
-	padding-top: 85px;
+	/*padding-top: 85px;*/
 	overflow: hidden;
 }
 
@@ -866,6 +866,7 @@ body{
 }
 .pro-fi{
 	padding-top: 56px;
+    margin-bottom: 15px;
 }
 .intoentit{
 	text-align: center;
@@ -885,22 +886,23 @@ body{
 	float: left;
 	width: 410px;
 	height: 526px;
-	border:5px solid #c9a072;
+	/*border:5px solid #c9a072;*/
 	position: relative;
 	margin-left: -200px;
 }
 .pro-se .le img{
 	position: absolute;
-	top: 23px;
-	left: 38px;
+	/*top: 23px;*/
+	/*left: 38px;*/
 }
 .pro-se .ri{
-	width: 500px;
+	width: 370px;
 	padding:42px 0 0 0;
 	float: right;
 	margin-right: -200px;
 }
 .pro-se .ri .p{
+    font-size: 14px;
 	line-height: 24px;
 	color: #333;
 	margin-top: 8px;

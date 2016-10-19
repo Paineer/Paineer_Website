@@ -270,17 +270,17 @@ function scrollanimate(){
 function jm(){  //产品优势
     var hei =document.documentElement.scrollTop || document.body.scrollTop;
     var window_height=document.documentElement.clientHeight + hei;
-    if(window_height>=$(".ad-gai").offset().top+400){
-        //$(".ad-gai").addClass("animated fadeInLeft").css("animationDelay","1s")
-        $(".ad-gai").animate({"marginLeft":"0px",opacity:1},1000,function(){
-            boxanimate()
-        })
-    }
-    if(window_height>=$(".sence").offset().top+600){
-        var li=$(".sence li");
-        li.animate({"marginLeft":"0px","opacity":1},1000)
-
-    }
+    //if(window_height>=$(".ad-gai").offset().top+400){
+    //    //$(".ad-gai").addClass("animated fadeInLeft").css("animationDelay","1s")
+    //    $(".ad-gai").animate({"marginLeft":"0px",opacity:1},1000,function(){
+    //        boxanimate()
+    //    })
+    //}
+    //if(window_height>=$(".sence").offset().top+600){
+    //    var li=$(".sence li");
+    //    li.animate({"marginLeft":"0px","opacity":1},1000)
+    //
+    //}
     if(window_height>=$(".adven-list").offset().top+500){
         li=$(".bz-list li")
         li.eq(0).animate({"opacity":1,"marginLeft":"0px"},800,function(){
