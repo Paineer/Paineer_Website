@@ -23,6 +23,7 @@
     <script src="../../js/template.js" type="text/javascript" charset="utf-8"></script>
     <script src="../../js/init.js" type="text/javascript" charset="utf-8"></script>
     <script src="../../js/ui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
 </head>
 
 <body>
@@ -31,9 +32,9 @@
 		    <div class="logo"><a href="../../index.html"><img src="../../image/logo.png" height="60" alt="首页"></a></div>
 		
             <div class="menub">
-                <b></b>
+                <b style="left:314px"></b>
                 <ul>
-                    <li class="ho on">
+                    <li class="ho">
                         <a href="../../index/about/" class="btit">关于我们</a>
                         <!--<div class="subnav" style="width:500px;">-->
                             <!--<a href="index.htm">品牌简介</a><span>·</span>-->
@@ -87,7 +88,7 @@
                              <!--<a href="../../design/home/index.htm">家居顾问</a>-->
                         <!--</div>-->
                     <!--</li>-->
-                    <li class="ho">
+                    <li class="ho on">
                         <a href="../../index/contact/" class="btit">联系我们</a>
                     </li>
                 </ul>
@@ -104,7 +105,7 @@
             <li><a href="http://wpa.qq.com/msgrd?v=3&uin=871586801&site=qq&menu=yes" target="_black"><div class="leftlx"><i></i><p>QQ咨询</p></div></a></li>
             <li><a href="javascript:void(0)"><div class="leftlx"><i class="icon-tel"></i><p>咨询电话</p></div><span>0512-67722480</span></a></li>
             <li style="overflow: visible"><a href="javascript:void(0)"><div class="leftlx"><i class="icon-wx"></i><p>微信公众号</p></div></a>
-                <div class="ewm"><img src="../../image/drny.jpg" width="120" height="120"></div>
+                <div class="ewm"><img src="../../image/wx.jpg" width="120" height="120"></div>
             </li>
             <li><a href="http://weibo.com" target="_black"><div class="leftlx"><i class="icon-wb"></i><p>关注微博</p></div></a></li>
         </ul>
@@ -143,31 +144,31 @@
 
 
 
-    <div class="in-banner" style="background:url(http://lvwarm.com/static/web/img/company_02.jpg?v=v2) no-repeat center">
+    <div class="in-banner" style="background:url(../../image/banner_contact.jpg) no-repeat center">
         <div class="bannertxt w1000">
-            <img src="../../../static/web/img/company_01_E7A774CF.png" width="852" height="88" class="txt1">
-            <div class="txt5">
-                <img src="../../../static/web/img/company_04_E7A774CF.png" width="176" height="18"  class="txt51">
-                <span class="hr"></span>
-                <span class="txt52">给你温暖的家</span>
-                <span class="txt53"><a href="index.htm">关于我们</a></span>
-                <a class="btn"></a>
-            </div>
+            <!--<img src="../../../static/web/img/company_01_E7A774CF.png" width="852" height="88" class="txt1">-->
+            <!--<div class="txt5">-->
+                <!--<img src="../../../static/web/img/company_04_E7A774CF.png" width="176" height="18"  class="txt51">-->
+                <!--<span class="hr"></span>-->
+                <!--<span class="txt52">给你温暖的家</span>-->
+                <!--<span class="txt53"><a href="index.htm">关于我们</a></span>-->
+                <!--<a class="btn"></a>-->
+            <!--</div>-->
         </div>
     </div>
 
     <div class="list-lx">
 
         <div class="roop">
-            <h1>联系我们</h1>
-            <img src="../../image/bsg_51_13.jpg" alt="Brand Profile" width="120" height="15 ">
+            <h1 style="font-size: 24px;padding-top: 20px;">联系我们</h1>
+            <!--<img src="../../image/bsg_51_13.jpg" alt="Brand Profile" width="120" height="15 ">-->
             <div class="telphone">
                 <i></i>
-                <span>电话：400-688-2328</span>
+                <span>电话：0512-67722480</span>
             </div>
             <div class="where">
                 <i></i>
-                <span>地址：浙江省湖州市双林工业区</span>
+                <span>地址：苏州市国发大厦南楼701A</span>
             </div>
             <div style="width:320px;height:170px;margin:5px;border:#999 solid 1px;" id="dituContent"></div>
             <!--<a href="javascript:void(0)" class="liuyan">在线留言</a>-->
@@ -176,8 +177,8 @@
 
         <div class="erweima">
             <!--<div class="forms">-->
-                <form>
-                    <div class="tit-ly">在线留言</div>
+                <form id="form-contact">
+                    <div class="tit-ly" style="padding-bottom: 15px;"><span style="display: inline-block;margin-left: 25px;margin-top: 20px;color:#c2995b">在线留言</span></div>
                     <div class="inputs put">
                         <label>姓名</label>
                         <input type="text" name="title" id="title" class="int" />
@@ -198,40 +199,19 @@
                         <input type="text" name="email" id="email" class="int">
                         <span></span>
                     </div>
-                    <textarea class="textlst int" name="content" id="content" >   您的留言或宝贵意见</textarea>
+                    <textarea class="textlst int" name="content" id="content" placeholder="您的留言或宝贵意见" style="padding-left: 12px;"></textarea>
                     <input type="submit" class="submit-tj" value="提交留言">
                 </form>
-                <a href="javascript:void(0)" class="tj-close"></a>
+                <!--<a href="javascript:void(0)" class="tj-close"></a>-->
             <!--</div>-->
         </div>
 
     </div>
 
 
-    <div class="pro-se w1000" style="margin-top: 0;padding-top: 0;padding-bottom: 40px;">
+    <div class="pro-se w1000" style="margin-top: 0;padding-top: 0;padding-bottom: 40px;height:150px">
     <div class="pro-se-th" style="padding-top: 40px;">
-    <div class="ul">
-    <div class="li" style="opacity:1; margin-right:126px">
-    <img src="../../../static/web/img/company_45_E7A774CF.jpg" width="76" height="76">
-    <div class="thtit">企业目标</div>
-    <div class="thtxt">家居生活暖文化的创导者</div>
-    </div>
-    <div class="li" style="opacity:1; margin-right:126px">
-    <img src="../../../static/web/img/company_47_E7A774CF.jpg" width="76" height="76">
-    <div class="thtit">企业精神</div>
-    <div class="thtxt">开拓创新 积极进取 认真负责  志美行厉 竭诚相待</div>
-    </div>
-    <div class="li" style="opacity:1; margin-right:126px">
-    <img src="../../../static/web/img/company_50_E7A774CF.jpg" width="76" height="76">
-    <div class="thtit">企业价值观</div>
-    <div class="thtxt">博学笃志 共创共赢</div>
-    </div>
-    <div class="li" style="opacity:1; margin-right:126px">
-    <img src="../../../static/web/img/company_52_E7A774CF.jpg" width="76" height="76">
-    <div class="thtit">企业使命</div>
-    <div class="thtxt">创造木价值 传递暖文化</div>
-    </div>
-    </div>
+    
     </div>
     </div>
 
@@ -239,7 +219,7 @@
         <div class="f-se w1000">
             <div class="le">
                 <a href="" class="lea">隐私声明</a><a href="" class="lea">友情链接</a><a href="" class="lea">法律声明</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CopyRight 2016&nbsp;&nbsp;&nbsp;&nbsp;苏州派涅尔工程设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;All Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;苏ICP备xxxxxxx号
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CopyRight 2016&nbsp;&nbsp;&nbsp;&nbsp;苏州派涅尔工程设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;All Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;苏ICP备16053707号
             </div>
         </div>
     </div>
@@ -250,14 +230,64 @@
     <script type="text/javascript">
 
         window.onload=function(){
+            var APP_ID = 'iisppP1ByYNMdyNVusWjzaU4-gzGzoHsz';
+            var APP_KEY = '0cIx9oog1vVT6i2e3UVz0yJB';
+            AV.init({
+              appId: APP_ID,
+              appKey: APP_KEY
+            });
+
             prozc();
-            dd(0)
+           // dd(3)
         }
         profilescroll();
 
         $(window).scroll(function(){
             profilescroll();
         })
+
+        var Contact = AV.Object.extend('Contact');
+
+        function releaseNewContact() {
+          var title = $('#title').val();
+          var tel = $('#tel').val();
+          var addr = $('#addr').val();
+          var email = $('#email').val();
+          var content = $('#content').val();
+
+          // LeanCloud - 当前用户
+          // https://leancloud.cn/docs/leanstorage_guide-js.html#当前用户
+          //var currentUser = AV.User.current();
+
+
+          // LeanCloud - 对象
+          // https://leancloud.cn/docs/leanstorage_guide-js.html#数据类型
+          var contact = new Contact();
+          contact.set('title', title);
+          contact.set('tel', tel);
+          contact.set('addr', addr);
+          contact.set('email', email);
+          contact.set('content', content);
+
+          contact.save().then(function() {
+              alert('提交成功');
+              $('#title').val('');
+              $('#tel').val('');
+              $('#addr').val('');
+              $('#email').val('');
+              $('#content').val('');
+          }, function(error) {
+            alert(JSON.stringify(error));
+          });
+        };
+
+        $(function() {
+            $("#form-contact").on('submit', function(e) {
+              e.preventDefault();
+              releaseNewContact();
+            });
+        });
+
 
 
 </script>

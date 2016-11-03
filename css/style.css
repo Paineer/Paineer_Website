@@ -503,6 +503,16 @@ body{
 	text-align: center;
     cursor:pointer;
 }
+.i-fib .ri dd div.mask{
+    width: 250px;
+    height: 345px;
+    float: left;
+    text-align: center;
+    cursor:pointer;
+}
+.i-fib .ri dd div.mask:hover{
+    background-color: rgba(0,0,0,0.5);
+}
 .i-fib .ri dd .tit{
 	margin-top: 115px;
 	text-align: center;
@@ -2637,7 +2647,7 @@ body{
 
 .sixebig{
     width:1920px;
-    height:950px;
+    height:1200px;
     position: relative;
     left:50%;
     margin-left: -960px;
@@ -2654,19 +2664,20 @@ body{
     margin: 63px 0px 58px 268px;
 }
 .center-bold{
-    width:9px;
-    height:585px;
+    width:96px;
+    height:826px;
     position: absolute;
-    background: url("../image/public/center.png") no-repeat;
-    left:494px;
-    top:200px;
+    background: url("../image/product_block01_pic1.png") no-repeat;
+    left:450px;
+    top:190px;
 }
 .bz-bg{
     width:350px;
     height:41px;
     background: url("../image/public/flow_77.png") no-repeat;
+    color: black;
     float: right;
-    margin-right: 4px;
+    margin-right: -110px;
 }
 .bz-list{
     width:1000px;
@@ -2691,7 +2702,7 @@ body{
 .bz-list-one p{
     float: right;
     text-align: right;
-    color:#ededed;
+    color:#000;
     line-height: 20px;
     margin-top: 20px;
     margin-right: 6px;
@@ -2709,7 +2720,7 @@ body{
     text-align: left;
     line-height: 20px;
     margin-top: 20px;
-    color:#ededed;
+    color:#000;
     +width:480px;
 }
 .bz-list-two .bz-bg{
@@ -2732,7 +2743,7 @@ body{
 }
 .bz-bg {
     font-size: 14px;
-    color:#fff;
+    color:#000;
     line-height: 41px;
     text-indent: 131px;
 }

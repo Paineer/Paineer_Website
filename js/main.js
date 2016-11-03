@@ -23,10 +23,10 @@ $(function(){
 		$(this).find(".subnav").stop(true,true).slideUp();
 	})	
 });
-function dd(length){
-    var dd = $(".header-main .menub b");
-    dd.css({"left":( length*(55+34) + 17 ) +"px"})
-}
+// function dd(length){
+//     var dd = $(".header-main .menub b");
+//     dd.css({"left":( length*(55+34) + 17 ) +"px"})
+// }
 function banner(){
         $(".bannertxt .txt1").stop().animate({"opacity": "1", "left": "159px", "top": "345px"}, 1200)
         $(".bannertxt .txt2").stop().animate({"opacity": "1"}, 1200)
@@ -288,16 +288,20 @@ function jm(){  //产品优势
                 li.eq(2).animate({"opacity":1,"marginLeft":"0px"},800,function(){
                     li.eq(3).animate({"opacity":1,"marginRight":"0px"},800,function(){
                         li.eq(4).animate({"opacity":1,"marginLeft":"0px"},800,function(){
-                            li.eq(5).animate({"opacity":1,"marginRight":"0px"},800)
+                            li.eq(5).animate({"opacity":1,"marginRight":"0px"},800,function(){
+                                li.eq(6).animate({"opacity":1,"marginLeft":"0px"},800,function(){
+                                    li.eq(7).animate({"opacity":1,"marginRight":"0px"},800);
+                                })
+                            })
                         })
                     })
                 })
             })
         })
     }
-    if(window_height>=$(".smallbox").offset().top){
-        $(".smallbox").animate({"opacity":"0.8","marginTop":"190px"},1200)
-    }
+    // if(window_height>=$(".smallbox").offset().top){
+    //     $(".smallbox").animate({"opacity":"0.8","marginTop":"190px"},1200)
+    // }
     if(window_height>=$(".adven-liensr").offset().top+400){
         $(".adven-liensr").animate({"opacity":1,"marginLeft":"0px"},1500)
     }
