@@ -4,19 +4,20 @@ $(function(){
 	$(".header-main li.ho").each(function(){
 		if ($(this).hasClass("on")) {
 			index = $(this).index();
-			    dd.stop(true,true).css({"left":( index*(65+34) + 17 ) +"px"})
+            console.log(index)
+			    dd.stop(true,true).css({"left":( index*(65+34) + 18 ) +"px"})
 		};
 	})
 	$(".header-main li.ho").hover(function(){
         if($(this).index()==6){
             index = $(this).index();
-            dd.stop(true,true).animate({"left":( index*(65+34) + 17 ) +"px"})
+            dd.stop(true,true).animate({"left":( index*(65+34) + 18 ) +"px"})
         }
         else{
             $(".header .bg").stop(true,true).slideDown(300);
             $(this).find(".subnav").stop(true,true).slideDown();
             index = $(this).index();
-            dd.stop(true,true).animate({"left":( index*(65+34) + 17 ) +"px"})
+            dd.stop(true,true).animate({"left":( index*(65+34) + 18 ) +"px"})
         }
 	},function(){
 		$(".header .bg").stop(true,true).slideUp();
