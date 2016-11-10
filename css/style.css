@@ -2677,7 +2677,7 @@ body{
     background: url("../image/public/flow_77.png") no-repeat;
     color: black;
     float: right;
-    margin-right: -110px;
+    margin-right: -172px;
 }
 .bz-list{
     width:1000px;
@@ -2704,7 +2704,7 @@ body{
     text-align: right;
     color:#000;
     line-height: 20px;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-right: 6px;
     +width:480px;
 }
@@ -2719,7 +2719,7 @@ body{
     margin-left: 6px;
     text-align: left;
     line-height: 20px;
-    margin-top: 20px;
+    margin-top: 8px;
     color:#000;
     +width:480px;
 }
@@ -2742,14 +2742,14 @@ body{
     background: url("../image/public/flow_81.png") no-repeat;
 }
 .bz-bg {
-    font-size: 14px;
+    font-size: 15px;
     color:#000;
     line-height: 41px;
     text-indent: 131px;
 }
 .bz-list-two .bz-bg{
     float:left!important;
-    text-indent: 63px;
+    text-indent: 14px;
 }
 .warm{
     width:1920px;

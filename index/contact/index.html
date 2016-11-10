@@ -252,6 +252,12 @@
         }
         profilescroll();
 
+$(".menub").hover(function(){
+    // $(".menub b").show();
+},function(){
+    $(".header-main .menub b").stop(true,true).css({"left":( 4*(65+34) + 18 ) +"px"})
+    // $(".menub b").hide();
+});
         $(window).scroll(function(){
             profilescroll();
         })

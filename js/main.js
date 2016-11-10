@@ -4,7 +4,6 @@ $(function(){
 	$(".header-main li.ho").each(function(){
 		if ($(this).hasClass("on")) {
 			index = $(this).index();
-            console.log(index)
 			    dd.stop(true,true).css({"left":( index*(65+34) + 18 ) +"px"})
 		};
 	})

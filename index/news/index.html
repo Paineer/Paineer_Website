@@ -229,6 +229,13 @@ $(".mangbox li").bind("click",function(){
         prozc();
 
     }
+
+    $(".menub").hover(function(){
+        // $(".menub b").show();
+    },function(){
+        $(".header-main .menub b").stop(true,true).css({"left":( 3*(65+34) + 18 ) +"px"})
+        // $(".menub b").hide();
+    });
     $(function(){
        // dd(2)
         culscroll()
