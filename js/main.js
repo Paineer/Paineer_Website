@@ -302,27 +302,27 @@ function jm(){  //产品优势
     // if(window_height>=$(".smallbox").offset().top){
     //     $(".smallbox").animate({"opacity":"0.8","marginTop":"190px"},1200)
     // }
-    if(window_height>=$(".adven-liensr").offset().top+400){
-        $(".adven-liensr").animate({"opacity":1,"marginLeft":"0px"},1500)
-    }
-    if(window_height>=$(".newadven-liensr").offset().top+400) {
-        $(".newadven-liensr").animate({"opacity":1,"marginLeft":"0px"},1500)
-    }
-    if(window_height>=$(".adven-bot").offset().top+400) {
-        $(".adven-bot img").animate({
-            "marginTop":"0px",
-            "opacity":1
-        },1000,function(){
-            $(".p-ins").fadeIn("slow")
-            for(var i=0;i<3;i++) {
-                $(".rowsli li").eq(i).animate({
-                    "marginTop":"0px",
-                    "opacity":"1"
-                },2000)
-            }
-        })
+    // if(window_height>=$(".adven-liensr").offset().top+400){
+    //     $(".adven-liensr").animate({"opacity":1,"marginLeft":"0px"},1500)
+    // }
+    // if(window_height>=$(".newadven-liensr").offset().top+400) {
+    //     $(".newadven-liensr").animate({"opacity":1,"marginLeft":"0px"},1500)
+    // }
+    // if(window_height>=$(".adven-bot").offset().top+400) {
+    //     $(".adven-bot img").animate({
+    //         "marginTop":"0px",
+    //         "opacity":1
+    //     },1000,function(){
+    //         $(".p-ins").fadeIn("slow")
+    //         for(var i=0;i<3;i++) {
+    //             $(".rowsli li").eq(i).animate({
+    //                 "marginTop":"0px",
+    //                 "opacity":"1"
+    //             },2000)
+    //         }
+    //     })
 
-    }
+    // }
 }
 function news(){
     var hei =document.documentElement.scrollTop || document.body.scrollTop;

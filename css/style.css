@@ -2647,7 +2647,7 @@ body{
 
 .sixebig{
     width:1920px;
-    height:1200px;
+    height:1110px;
     position: relative;
     left:50%;
     margin-left: -960px;
@@ -2669,15 +2669,15 @@ body{
     position: absolute;
     background: url("../image/product_block01_pic1.png") no-repeat;
     left:450px;
-    top:190px;
+    top:215px;
 }
 .bz-bg{
     width:350px;
-    height:41px;
+    height:50px;
     background: url("../image/public/flow_77.png") no-repeat;
     color: black;
     float: right;
-    margin-right: -172px;
+    margin-right: -120px;
 }
 .bz-list{
     width:1000px;
@@ -2702,7 +2702,7 @@ body{
 .bz-list-one p{
     float: right;
     text-align: right;
-    color:#000;
+    color:#333;
     line-height: 20px;
     margin-top: 8px;
     margin-right: 6px;
@@ -2720,7 +2720,7 @@ body{
     text-align: left;
     line-height: 20px;
     margin-top: 8px;
-    color:#000;
+    color:#333;
     +width:480px;
 }
 .bz-list-two .bz-bg{
